@@ -1,0 +1,78 @@
+
+body {
+    font-family: 'Schoolbell', cursive;
+    font-size: 1.1rem;
+}
+body h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.lavagna {
+    background-color: rgb(36, 34, 34);
+    width: 80%;
+    height: 600px;
+    border: 10px solid burlywood;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.lavagna div {
+    width: 200px;
+    height:200px;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    padding-top: 60px;
+    box-shadow: 3px 3px 3px black;
+    box-sizing: border-box;
+    transition-property:scale;
+    transition-duration: 2s;
+    
+}
+.lavagna div:hover {
+    transform: scale(120%);
+}
+.lavagna h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.post1 {
+    background-color: rgb(169, 193, 214);
+    transform: rotate(-5deg);
+    
+}
+.post2 {
+    background-color: rgb(117, 165, 145);
+    transform: rotate(5deg);
+}
+.post3 {
+    background-color: rgb(116, 146, 108);
+    transform:translateY(30px);
+}
+.post4 {
+    background-color: rgb(190, 206, 135);
+    transform: rotate(8deg);
+}
+.post5 {
+    background-color: rgb(190, 150, 175);
+    transform: rotate(15deg);
+}
+.post6 {
+    background-color: rgb(139, 115, 165);
+    transform: translateY(-40px);
+}
+.post7 {
+    background-color: rgb(139, 158, 173);
+    transform: rotate(-10deg);
+}
+.post8 {
+    background-color: rgb(151, 172, 134);
+    transform: translateX(30px) rotate(20deg);
+}
+
